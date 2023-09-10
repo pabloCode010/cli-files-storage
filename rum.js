@@ -4,7 +4,9 @@ import { download } from "./commands/download-file.js";
 import { upload } from "./commands/upload-file.js";
 import { listFiles } from "./commands/list-files.js";
 
-const baseURL = "http://localhost:3000";
+//edit the url if you deployed your own server from https://github.com/AlgorithmXplorer/files-storage.git
+//Make sure the url does not end in / or it will generate an error
+const baseURL = "https://files-storage.pablo-arturoar3.repl.co";
 
 const program = new Command();
 

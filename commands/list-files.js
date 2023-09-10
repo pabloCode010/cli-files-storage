@@ -1,5 +1,4 @@
 import fetch from "node-fetch";
-import fs from "fs";
 
 export async function listFiles(baseURL) {
   try {
